@@ -16,7 +16,7 @@ const TicTacToe = () => {
       setGrid(prev => newGrid);
     }
 
-    hasWon(value, grid);
+    hasWon(value, newGrid);
   }
 
   function onNewGameClick() {
