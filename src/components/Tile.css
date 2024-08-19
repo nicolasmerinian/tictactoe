@@ -1,0 +1,23 @@
+.Tile {
+    align-items: center;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    font-size: xxx-large;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+}
+
+.Tile:hover {
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+.winning-tile {
+    background-color: rgb(80, 141, 83);
+}
+
+.winning-tile:hover {
+    background-color: rgb(97, 171, 101);
+}
